@@ -1,0 +1,39 @@
+# Ignore secret environment files containing API tokens
+.env
+.env*.local
+!.env.example
+
+# Ignore database credentials and sqlite files
+/config/database.yml
+/db/*.sqlite3
+/db/*.sqlite3-*
+
+# Ignore logs and temporary storage
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore storage directory for uploaded files
+/storage/*
+!/storage/.keep
+/public/uploads
+
+# Ignore node modules and compiled assets if using Node/Tailwind build pipelines
+/node_modules
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules/.cache
+/.bundle
+
+# Ignore system & IDE specific metadata files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore test coverage and debug logs
+/coverage/
+/debug.log
