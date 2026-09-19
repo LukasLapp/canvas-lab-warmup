@@ -11,12 +11,9 @@
 # Ignore logs and temporary storage
 /log/*
 /tmp/*
-!/log/.keep
-!/tmp/.keep
 
 # Ignore storage directory for uploaded files
 /storage/*
-!/storage/.keep
 /public/uploads
 
 # Ignore node modules and compiled assets if using Node/Tailwind build pipelines
@@ -37,3 +34,7 @@
 # Ignore test coverage and debug logs
 /coverage/
 /debug.log
+# Ignore key files for decrypting credentials and more.
+/config/*.key
+
+config/master.key
