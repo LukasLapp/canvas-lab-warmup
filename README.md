@@ -66,3 +66,7 @@ Then open <http://localhost:3000>. Stop the server with command `Ctrl+C`.
 ---
 
 ## Reflection
+
+Overall, despite some procrastination, this project was not too bad. I learned about how simple it is to setup a Ruby on Rails application. I was especially pleased with the `bundle install` command which took care of any dependencies that I needed. While working on this project I added a few gems to the Gemfile and was able to simply run the command to ensure that I had the new dependency installed which I found very helpful. I enjoyed working with Ruby on Rails but I certainly would need more time to fully understand the language and how each file communicates with each other. 
+
+I would say the most challenging thing for me was surprisingly using Tailwind CSS. I am relatively used to CSS but found it difficult to adjust to Tailwind's syntax. This lead to my application looking presentable but not incredibly creative. If I had more time to work on this application I would likely have started with updating the Tailwind to look far more interesting. I would have also worked on making the assignment list better sorted and have removed assignments that did not contain a due date in order for the user to more clearly see which assignments held the highest priority and overall removing visual clutter. 
